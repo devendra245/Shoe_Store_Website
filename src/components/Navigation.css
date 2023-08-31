@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+}
+
+.login-button{
+  all: unset;
+  padding: 6px 16px;
+  background-color: goldenrod;
+  height: 32px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 200;
+  margin-right: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+
+}
+.login-button:hover{
+  background-color: #0056b3;
+}
+.container{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  height: 72px;
+  align-items: center;
+  
+
+}
+nav ul{
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+ul li a{
+  font-size: 16px;
+  font-weight: 200;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+ul li a:hover {
+  color: #007bff;
+}
+
+.logo{
+  margin-left: 30px;
+}

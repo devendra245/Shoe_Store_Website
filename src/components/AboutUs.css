@@ -1,0 +1,45 @@
+.about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin-bottom: 40px;
+  }
+  
+  .owner-card {
+    display: flex;
+    justify-content: center; /* Center the cards horizontally */
+    margin-top: 20px;
+  }
+  
+  .owner-details {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+    max-width: 300px; /* Adjust the maximum width of each card */
+  }
+  
+  .owner-details img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .owner-details h3 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .owner-details p {
+    font-size: 14px;
+    color: #555;
+  }
+  

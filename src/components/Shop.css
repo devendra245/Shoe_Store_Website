@@ -1,0 +1,88 @@
+/* Shop.css */
+.shop-container {
+    display: flex;
+    flex-direction: column; /* Arrange elements vertically */
+}
+
+.background-section {
+    flex: 1;
+    position: relative;
+}
+
+.background-image {
+    width: 98vw;
+    height: 20vh;
+    object-fit: cover;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    /* Add more styling properties as needed */
+}
+
+.content-section {
+    flex: 1; /* Take up remaining available space */
+    padding: 20px; /* Add some padding for spacing */
+    display: flex;
+    flex-direction: column; /* Arrange elements vertically */
+    justify-content: flex-start; /* Align content at the top */
+}
+
+
+.content-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.card-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 10px;
+    
+}
+
+
+.card {
+    flex: calc(25% - 5px);
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    transition: box-shadow 0.3s; /* Add smooth transition for the box shadow */
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Show box shadow on hover */
+    color: #007bff;
+    
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card h3,
+.card p {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
